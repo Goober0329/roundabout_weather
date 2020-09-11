@@ -2,5 +2,3 @@
 
 A Weather app that shows the weather at and around a point. This can be your location or a searched location. 
 In the settings you can change the distance from the center point and the number of roundabout weather data points.
-
-[![Roundabout Weather Video](doc/RW_youtube.PNG)](https://youtu.be/mwFxHUpiR2s "Roundabout Weather app")
