@@ -1,0 +1,41 @@
+name: round_about_weather
+description: This app shows the weather around you.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^4.1.2
+  geocoding: ^1.0.3
+  geolocator: ^6.0.0+1
+  http: ^0.12.2
+  auto_size_text: ^2.1.0
+  shared_preferences: ^0.5.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: fonts/RobotoSlab/RobotoSlab-Bold.ttf
+        - asset: fonts/RobotoSlab/RobotoSlab-Light.ttf
+        - asset: fonts/RobotoSlab/RobotoSlab-Medium.ttf
+        - asset: fonts/RobotoSlab/RobotoSlab-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto/Roboto-Bold.ttf
+        - asset: fonts/Roboto/Roboto-Light.ttf
+        - asset: fonts/Roboto/Roboto-Medium.ttf
+        - asset: fonts/Roboto/Roboto-Regular.ttf
